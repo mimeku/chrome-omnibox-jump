@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "地址栏跳转",
+    "version": "1.0",
+    "description": "地址栏关键词快速跳转",
+    "icons": {
+        "16": "icon.png"
+    },
+    "omnibox": {
+        "keyword": "goto"
+    },
+    "permissions": [
+        "omnibox",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_page": "options.html"
+}
