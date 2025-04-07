@@ -7,7 +7,7 @@
         "16": "icon.png"
     },
     "omnibox": {
-        "keyword": "goto"
+        "keyword": "go"
     },
     "permissions": [
         "omnibox",
